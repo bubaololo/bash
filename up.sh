@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 PASSWORD="changeme"
 sudo apt-get update
 sudo apt-get upgrade -y
