@@ -5,6 +5,7 @@ sudo apt-get upgrade -y
 apt-get -y install curl nano mc openssl git htop zip unzip
 apt install mysql-server memcached redis -y
 sudo apt install software-properties-common apt-transport-https -y
+ulimit 65535
 add-apt-repository ppa:ondrej/php -y
 apt install php8.1 -y
 apt install php-common php-fpm php-memcached php-cli php-curl php-gd php-mysql php-imagick php-mbstring php-xml -y
