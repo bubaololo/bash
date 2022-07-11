@@ -8,7 +8,7 @@ sudo apt install software-properties-common apt-transport-https -y
 ulimit 65535
 add-apt-repository ppa:ondrej/php -y
 apt install php8.1 -y
-apt install php-common php-fpm php-memcached php-cli php-curl php-gd php-mysql php-imagick php-mbstring php-xml -y
+apt install php-common php-fpm php-memcached php-cli php-curl php-gd php-mysql php-redis php-imagick php-mbstring php-xml -y
 php -r "readfile('https://getcomposer.org/installer');" | php
 mv ./composer.phar /usr/bin/composer
 cd
