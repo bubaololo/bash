@@ -7,8 +7,8 @@ apt install mysql-server redis -y
 apt install nginx -y
 sudo apt install software-properties-common apt-transport-https -y
 add-apt-repository ppa:ondrej/php -y
-apt install php8.2-common php8.3-fpm php8.3-cli php8.3-curl php8.3-gd php-mysql php-redis php-imagick php-mbstring php-xml -y
-php -r "readfile('https://getcomposer.org/installer');" | php
+apt install php8.3-common php8.3-fpm php8.3-cli php8.3-curl php8.3-gd php-mysql php-redis php-imagick php-mbstring php-xml -y
+php -r "readfile('https://getcomposer.org/installer');" | phpre
 mv ./composer.phar /usr/bin/composer
 cd
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
